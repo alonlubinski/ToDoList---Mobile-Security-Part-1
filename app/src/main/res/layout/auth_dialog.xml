@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/edit_text_background">
+
+
+
+    <EditText
+        android:id="@+id/auth_EDT_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:background="@drawable/edit_text_background"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/auth_BTN_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/confirm_str"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:background="@drawable/button_background"/>
+
+        <Button
+            android:id="@+id/auth_BTN_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel_str"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:background="@drawable/button_white_background"/>
+    </LinearLayout>
+</LinearLayout>

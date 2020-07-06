@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="welcome_str">Welcome</string>
+    <string name="name_str">Name</string>
+    <string name="phone_str">Phone Number</string>
+    <string name="confirm_str">Confirm</string>
+    <string name="cancel_str">Cancel</string>
+    <string name="add_str">Add</string>
+    <string name="title_str">"Title: "</string>
+    <string name="date_str">"Date: "</string>
+    <string name="time_str">"Time: "</string>
+    <string name="enter_title_str">Enter to do title</string>
+    <string name="enter_date_str">Enter to do date</string>
+    <string name="enter_time_str">Enter to do time</string>
+    <string name="description_str">"Description: "</string>
+    <string name="enter_description_str">Enter to do description</string>
+    <string name="new_todo_str">New ToDo</string>
+    <string name="finish_str">Finish</string>
+    <string name="todo_details_str">ToDo Details</string>
+    <string name="delete_str">Delete</string>
+</resources>
